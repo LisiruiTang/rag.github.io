@@ -1,12 +1,4 @@
-这段代码在缩进方面存在一些不规范的地方：
 
-1. 在 `organizations` 部分，`- name:` 和 `#url:` 的缩进应该保持一致，目前没有缩进。
-2. `interests` 部分中每个兴趣点（如 `-Large language models (LLMs)`）前面的连字符 `-` 应该与父层级的缩进一致。
-3. `education` 和 `work` 部分中每个子项的缩进也应该保持一致，目前看起来有点混乱。
-
-以下是修正后的缩进示例：
-
-```yaml
 # Display name
 title: Ray.Tang
 
