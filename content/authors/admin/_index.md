@@ -24,7 +24,7 @@ role: AI/LLMs and Climate Change Researcher, Co-founder of Technology company，
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'raytang50@gmail.com'
+    url: raytang50@gmail.com
     label: E-mail Me
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/ray-tang-847808297/
@@ -33,10 +33,10 @@ profiles:
 
 
 interests:
-        -Large language models (LLMs)
-        -Climate change 
-        -Computational Sustainability,
-        -Machine learning (ML)
+  -Large language models (LLMs)
+  -Climate change 
+  -Computational Sustainability,
+  -Machine learning (ML)
 
 
 education:
@@ -56,8 +56,8 @@ work:
     date_start: 2023-09
     date_end: 2023-12
     summary: 
-      - Under my mentor's guidance, a Senior Principal Researcher at Microsoft, I have actively contributed to pioneering the application of Large Language Models (LLMs) such as ChatGPT across diverse domains. Notably, we harnessed ChatGPT to produce over 200,000 PowerPoint outlines for OfficePlus in more than 20 different fields. 
-      - We researched the application of large language models in the field of climate change. Through techniques like fine-tuning, we trained AI for Science to distinguish it from generic large language models.
+      -Under my mentor's guidance, a Senior Principal Researcher at Microsoft, I have actively contributed to pioneering the application of Large Language Models (LLMs) such as ChatGPT across diverse domains. Notably, we harnessed ChatGPT to produce over 200,000 PowerPoint outlines for OfficePlus in more than 20 different fields. 
+      -We researched the application of large language models in the field of climate change. Through techniques like fine-tuning, we trained AI for Science to distinguish it from generic large language models.
   - position: Prompt Engineering Team
     company_name: TIKTOK's parent company ByteDance
     company_url: ''
@@ -72,5 +72,4 @@ work:
 
 
 ## About Me
-
 I am a researcher on AI/LLMs and climate change and the co-founder of a technology company. I am committed to using AI especially LLMs and ML to predict and address climate change. I am honored to have participated in the research of LLMs at the Microsoft Search Technology Center (STCA) and ByteDance. I'm also a music producer, scuba diver and motorcycle travel enthusiast.
