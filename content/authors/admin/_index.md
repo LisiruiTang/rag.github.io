@@ -1,4 +1,12 @@
----
+这段代码在缩进方面存在一些不规范的地方：
+
+1. 在 `organizations` 部分，`- name:` 和 `#url:` 的缩进应该保持一致，目前没有缩进。
+2. `interests` 部分中每个兴趣点（如 `-Large language models (LLMs)`）前面的连字符 `-` 应该与父层级的缩进一致。
+3. `education` 和 `work` 部分中每个子项的缩进也应该保持一致，目前看起来有点混乱。
+
+以下是修正后的缩进示例：
+
+```yaml
 # Display name
 title: Ray.Tang
 
@@ -16,9 +24,9 @@ highlight_name: true
 role: AI/LLMs and Climate Change Researcher, Co-founder of Technology company，The 28th United Nations Climate Conference‘s Youth representative
 
 # Organizations/Affiliations to display in Biography blox
-#organizations:
-  #- name: 
-    #url: 
+organizations:
+  - name: 
+    url: 
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -31,13 +39,11 @@ profiles:
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?hl=en&user=3aKOBb0AAAAJ&view_op=list_works&authuser=1&gmla=ALUCkoUjkp1KLCFVOqR7NMD8EpmIPIGmJFMc1-4s0m-PaolWNfnqpE3xpcq4B_l4QsMCac81MRsmhRsnQwdhV8xi
 
-
 interests:
-  -Large language models (LLMs)
-  -Climate change 
-  -Computational Sustainability,
-  -Machine learning (ML)
-
+  - Large language models (LLMs)
+  - Climate change 
+  - Computational Sustainability,
+  - Machine learning (ML)
 
 education:
   - area: Bachelor of Engineering in Data Science and Big Data Technology
@@ -48,6 +54,7 @@ education:
     institution: Xi’an Jiaotong–Liverpool University
     date_start: 2020-09
     date_end: 2024-07
+
 work:
   - position: DKI Group R&D Team Member
     company_name: Microsoft Search Technology Center (STCA)
@@ -56,8 +63,8 @@ work:
     date_start: 2023-09
     date_end: 2023-12
     summary: 
-      -Under my mentor's guidance, a Senior Principal Researcher at Microsoft, I have actively contributed to pioneering the application of Large Language Models (LLMs) such as ChatGPT across diverse domains. Notably, we harnessed ChatGPT to produce over 200,000 PowerPoint outlines for OfficePlus in more than 20 different fields. 
-      -We researched the application of large language models in the field of climate change. Through techniques like fine-tuning, we trained AI for Science to distinguish it from generic large language models.
+      - Under my mentor's guidance, a Senior Principal Researcher at Microsoft, I have actively contributed to pioneering the application of Large Language Models (LLMs) such as ChatGPT across diverse domains. Notably, we harnessed ChatGPT to produce over 200,000 PowerPoint outlines for OfficePlus in more than 20 different fields. 
+      - We researched the application of large language models in the field of climate change. Through techniques like fine-tuning, we trained AI for Science to distinguish it from generic large language models.
   - position: Prompt Engineering Team
     company_name: TIKTOK's parent company ByteDance
     company_url: ''
@@ -65,11 +72,9 @@ work:
     date_start: 2023-06
     date_end: 2023-08
     summary: |
-      -Engaged in the AIGC project Doubao, which has achieved 25 million installations, scrutinizing more than 10, 000 training data entries per day for LLM, ensuring the integrity of the data. I employed Python and SQL for data quality, consistency checking, and quantitative analysis of words, adopting statistical methods to boost the company's operational efficiency by roughly 50%. 
-      -Contributed to synthetic data capabilities and rule formulation of LLM data, including prompt data generation, personalization rule development for SFT data, and product workflow.
-
-
-
+      - Engaged in the AIGC project Doubao, which has achieved 25 million installations, scrutinizing more than 10, 000 training data entries per day for LLM, ensuring the integrity of the data. I employed Python and SQL for data quality, consistency checking, and quantitative analysis of words, adopting statistical methods to boost the company's operational efficiency by roughly 50%. 
+      - Contributed to synthetic data capabilities and rule formulation of LLM data, including prompt data generation, personalization rule development for SFT data, and product workflow.
 
 ## About Me
 I am a researcher on AI/LLMs and climate change and the co-founder of a technology company. I am committed to using AI especially LLMs and ML to predict and address climate change. I am honored to have participated in the research of LLMs at the Microsoft Search Technology Center (STCA) and ByteDance. I'm also a music producer, scuba diver and motorcycle travel enthusiast.
+```
