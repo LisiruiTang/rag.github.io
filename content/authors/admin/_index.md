@@ -1,10 +1,9 @@
 ---
 # Display name
-title: 
-Lisirui (Ray) Tang
+title: Ray.Tang
 
 # Full name (for SEO)
-first_name: Lisirui (Ray)
+first_name: Lisirui 
 last_name: Tang
 
 # Is this the primary user of the site?
